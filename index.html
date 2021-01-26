@@ -16,14 +16,17 @@
         <div class="row">
             <div class="col">
 
-
+                // TITRE
                 <h1>Calculer salaire BRUT NET</h1>
-
-                <form action="/" method="POST">
+                
+                  // ACTION DE POSTER SUR URL LE SALAIRE
+                   <form action="/" method="POST">
+                   // INPUT POUR EDITER LE SALAIRE 
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Votre salaire BRUT mensuel</label>
                         <input type="number" class="form-control" id="salaire" name="salaire">
                     </div>
+                       // INPUT SELECTIONNER LE STATUS  
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">Sélectionner votre statut</label>
                         <select class="form-control" id="statut" name="statut">
@@ -31,6 +34,7 @@
                                 <option value="0.76" name="cadre" >Cadre</option>
                           </select>
                     </div>
+                     // BUTTON POUR SOUMETTRE LE RÉSULTAT 
                     <button type="submit" class="btn btn-primary mb-2">Calculer</button>
                 </form>
 
